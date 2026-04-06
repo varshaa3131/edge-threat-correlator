@@ -26,3 +26,11 @@ Request → Logging → In-Memory Storage → Correlation → Detection → Aler
 - Docker (containerization)
 
 ## Project Structure
+## Project Structure
+
+edge-threat-correlator/
+├── app.js
+├── Dockerfile
+├── package.json
+├── README.md
+└── screenshot.png
