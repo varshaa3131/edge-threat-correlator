@@ -26,24 +26,13 @@ Request → Logging → In-Memory Storage → Correlation → Detection → Aler
 - Docker (containerization)
 
 ## Project Structure
-## Screenshot
 
-![Detection Output]
-)(screenshot.png)
+## Project Structure
 
-
-## How to Run
-
-git clone https://github.com/varshaa3131/edge-threat-correlator.git
-cd edge-threat-correlator
-docker build -t devops-app .
-docker run -d -p 3000:3000 devops-app
-
-Open browser:
-http://localhost:3000/login
-
-Refresh multiple times to trigger detection.
-
-## Why This Matters
-
-Modern attacks such as brute-force login attempts and credential stuffing happen across multiple requests over time. Traditional edge-based systems fail to detect these patterns because they analyze each request in isolation.
+edge-threat-correlator/
+├── app.js
+├── Dockerfile
+├── package.json
+├── README.md
+└── screenshot.png
+>>>>>>> 2aed1ca114d376b9f6c7719d3b49d59730a7b729
